@@ -1,38 +1,131 @@
-.App {
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  width:100%;
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 0;
+  z-index: 1;
+  box-shadow: 0 1px 1px 0 rgba(36, 50, 66, 0.15);
+}
+
+.navbar-left{
+  color: #333;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-right a {
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #333;
+}
+
+#about{
+  background-image: url('https://cdn.fstoppers.com/styles/full/s3/photos/2018/05/1ef8f467f05f1b91044dee3e9d971194.jpg?itok=Ynoo4qx3');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#about h2{
+  font: 22px/30px 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#about h3{
+  border-bottom: 3px solid #fff;
+  color: #fff;
+  font: 400 18px/24px "Raleway",sans-serif;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#about p{
+  line-height: 30px;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.bio-container{
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+.bio-left{
+  background: rgba(0,0,0, 0.4);
+  padding: 60px 30px;
+}
+
+.pp-container{
+  text-align: center;
+  display: block;
+  margin: 5px auto;
+  padding: 10px;
+  width: 225px;
+}
+
+.profile-pic{
+  border: 5px solid #b1b2b4;
+  border-radius: 100%;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+  height: auto;
+  margin: 15px 18px;
+  position: relative;
+  width: 80%;
+}
+
+.bio-right{
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  overflow: scroll;
+}
+
+.contact-container{
+  text-align: center;
+  padding: 20px 5%;
+  background-color: #222831;
   color: white;
+  text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.card-holder{
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+  background-color: #222831;
+  border: none;
+}
+
+.card a{
+  color: white;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+.card p{
+  font-size: 15px;
+  padding: 0 12px;
+}
+
+.card a:hover{
+  transform: scale(1.1);
 }
