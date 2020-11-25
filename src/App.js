@@ -2,7 +2,7 @@ import './App.css';
 import profile from './images/profilepic.jpeg';
 import newsapp from './images/portfolio-newsapp.png';
 import picture from './images/portfolio-pictureperfect.png';
-
+import saveit from './images/portfolio-saveit.png';
 
 function App() {
   return (
@@ -55,6 +55,18 @@ function App() {
         <h2>Pixel Perfect</h2>
         <p>A mockup recreation using HTML and CSS.</p>
         <h4 style={{marginBottom: '20px'}}><a target="_blank" rel="noreferrer" href="https://github.com/BrianCambron/pixel-perfect">View Code</a></h4>
+      </div>
+      <div className="saveit">
+        <div className='display'>
+        <a target="_blank" rel="noreferrer" href="https://ccs-final-project-saveit.herokuapp.com/">
+          <img src={saveit} alt="saveit budgeting app"/>
+        </a>
+        </div>
+      </div>
+      <div className="description">
+        <h2>Saveit</h2>
+        <p>Saveit is a budgetting app that utilizes Dave Ramsey's envelope system.</p>
+        <h4 style={{marginBottom: '20px'}}><a target="_blank" rel="noreferrer" href="https://github.com/BrianCambron/CCS-Final-Project">View Code</a></h4>
       </div>
     </section>
     <section id='contact'>

@@ -184,3 +184,11 @@ html {
   background: #03B79B;
   background: linear-gradient(to left, #03B79B, #14FDC3);
 }
+
+.saveit{
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  background: #EDB0EF;
+  background: linear-gradient(to left, #EDB0EF, #AFE1BC);
+}
