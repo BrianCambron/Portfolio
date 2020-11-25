@@ -192,3 +192,9 @@ html {
   background: #EDB0EF;
   background: linear-gradient(to left, #EDB0EF, #AFE1BC);
 }
+
+@media only screen and (max-width: 620px) {
+  .navbar-left {
+    margin: auto;
+  }
+}
