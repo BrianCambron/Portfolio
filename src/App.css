@@ -197,4 +197,13 @@ html {
   .navbar-left {
     margin: auto;
   }
+  #about h3{
+    width: 94%;
+  }
+  .bio-left{
+    padding: 60px 0px;
+  }
+  .navbar-right a {
+    padding: 0px 27px;
+  }
 }
