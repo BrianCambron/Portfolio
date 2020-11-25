@@ -129,3 +129,58 @@ html {
 .card a:hover{
   transform: scale(1.1);
 }
+
+.portfolio{
+  text-align: center;
+  justify-content: center;
+}
+
+.newsapp{
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  background-color: #FED586;
+  background: linear-gradient(to right, #ffa751, #ffe259);
+}
+
+.display{
+  margin: 0 auto;
+  position: relative;
+}
+
+.display a {
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.display img:hover{
+  transform: scale(1.1);
+}
+
+.display img{
+  width: 95%;
+  max-width: 700px;
+  position: relative;
+  top: 14px;
+}
+
+.description h4{
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.description h2{
+  font-size: 35px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.picture-perfect{
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  background: #03B79B;
+  background: linear-gradient(to left, #03B79B, #14FDC3);
+}
