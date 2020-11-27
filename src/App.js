@@ -65,7 +65,7 @@ function App() {
       </div>
       <div className="description">
         <h2>Saveit</h2>
-        <p>Saveit is a budgetting app that utilizes Dave Ramsey's envelope system.</p>
+        <p>Saveit is a budgeting app that utilizes Dave Ramsey's envelope system.</p>
         <h4 style={{marginBottom: '20px'}}><a target="_blank" rel="noreferrer" href="https://github.com/BrianCambron/CCS-Final-Project">View Code</a></h4>
       </div>
     </section>
